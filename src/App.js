@@ -12,15 +12,15 @@ function App() {
               <Navigation>
                   <Link to="/resume">Resume</Link >
                   <Link to="/aboutme">About Me</Link >
-                  <Link to="/contact">Projects</Link >
+                  <Link to="/projects">Projects</Link >
                   <Link to="/contact">Contact</Link >
               </Navigation>
           </Header>
           <Drawer title="Title">
               <Navigation>
-              <Link to="/resume">Resume</Link >
+                  <Link to="/resume">Resume</Link >
                   <Link to="/aboutme">About Me</Link >
-                  <Link to="/contact">Projects</Link >
+                  <Link to="/projects">Projects</Link >
                   <Link to="/contact">Contact</Link >
               </Navigation>
           </Drawer>
