@@ -14,7 +14,7 @@ export default class Landing extends Component {
               className="avatar-img"
               />
             <div className="banner-text">
-              <h1>Junior Web Developer</h1>
+              <h1>Web Developer</h1>
 
               <hr />
 
@@ -26,3 +26,4 @@ export default class Landing extends Component {
     )
   }
 }
+  
