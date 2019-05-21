@@ -69,7 +69,7 @@
 
 .contact-body {
   margin: auto;
-  /* background: #464545; */
+  background: #464545;
   position: fixed;
   width: 100%;
   height: 100%;
@@ -114,4 +114,22 @@
 }
 .contact-list a:hover {
   color: #60446d;
+}
+
+/* resume page */
+.resume-right-col {
+  background: #464545;
+  color: #fff;
+  padding: 2em;
+}
+
+.resume-left-col a{
+  text-decoration: none;
+  color: #000;
+}
+.resume-left-col a:hover {
+  color: #cf10b6;
+}
+.resume-left-col h5 {
+  font-weight: bold;
 }

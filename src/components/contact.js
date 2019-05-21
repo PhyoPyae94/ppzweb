@@ -22,10 +22,10 @@ export default class Contact extends Component {
              />
              <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
           </Cell>
+          
           <Cell col={6}>
             <h2>Contact Me</h2>
             <hr />
-
             <div className="contact-list">
               <List>
                 <ListItem>
@@ -38,7 +38,7 @@ export default class Contact extends Component {
               <List>
                 <ListItem>
                   <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
-                    <a href="https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&hl=en&flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_blank">
+                    <a href="https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&hl=en&flowName=GlifWebSignIn&flowEntry=ServiceLogin" rel="noopener noreferrer" target="__blank">
                       <FontAwesomeIcon className="fontAwesome" icon={faEnvelopeOpenText} />
                       phyopyae.za94@gmail.com
                     </a>
@@ -48,7 +48,7 @@ export default class Contact extends Component {
               <List>
                 <ListItem>
                   <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
-                    <a href="#" target="_blank">
+                    <a href="https://facebook.com" rel="noopener noreferrer" target="_blank">
                       <FontAwesomeIcon className="fontAwesome" icon={faFacebookSquare} />
                       My Facebook ID
                     </a>
