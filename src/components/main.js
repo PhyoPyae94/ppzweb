@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Switch, Route } from 'react-router-dom';
 
 import Landing from './landingpage';
 import AboutMe from './aboutme';
@@ -8,15 +8,13 @@ import Resume from './resume';
 import Projects from './projects';
 
 const Main = () => (
-    <Router>
         <Switch>
             <Route exact path="/" component={Landing} />
-            <Route exact path="/aboutme" component={AboutMe} />
-            <Route exact path="/contact" component={Contact} />
-            <Route exact path="/resume" component={Resume} />
-            <Route exact path="/projects" component={Projects} />
+            <Route path="/aboutme" component={AboutMe} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/resume" component={Resume} />
+            <Route path="/projects" component={Projects} />
         </Switch>
-    </Router>
 )
 
 export default Main;
