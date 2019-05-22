@@ -25,13 +25,13 @@ export default class Resume extends Component {
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, ab.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, ab.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, ab.</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <h5>Address</h5>
-            <p>Pha Sa Pa La quatar, MingalrTaungNyunt, Yangon.</p>
+            <p>Pha Sa Pa La Quatar, MingalrTaungNyunt, Yangon.</p>
             <h5>Phone</h5>
             <p>(+959)972 137599</p>
             <h5>Email</h5>
             <p>phyopyae.za94@gmail.com</p>
             <h5>Web</h5>
-            <p><a href="http://phyopyae.tk" rel="noopener noreferrer" target="__blank">phyopyae.tk</a></p>
+            <p><a href="https://phyopyaezaw.netlify.com" rel="noopener noreferrer" target="__blank">phyopyaezaw.netlify.com</a></p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%', textAlign: 'center'}}/>
           </Cell>
 
@@ -39,17 +39,31 @@ export default class Resume extends Component {
             <h2>Education</h2>
 
             <Education
-              startYear={2002}
-              endYear={2006}
-              schoolName="WYTU"
-              schoolDescription="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+              startYear={2014}
+              endYear={2015}
+              schoolName="West Yangon Technological University"
+              schoolDescription="Bachelor of Technology ( Civil )"
             />
               <Education
-                startYear={2002}
-                endYear={2006}
-                schoolName="WYTU"
-                schoolDescription="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                startYear={2015}
+                endYear={2016}
+                schoolName="West Yangon Technological University"
+                schoolDescription="Bachelor of Engineering ( Civil )"
               />
+            <h3>Others Qualification</h3>
+                <Education
+                    startYear={2018}
+                    endYear={"( Sep -> Dec )"}
+                    schoolName="Fairway School of Technology"
+                    schoolDescription="Fundamental Software Engineering"
+                  />
+
+                <Education
+                    startYear={2019}
+                    endYear={"( Oct -> Jan )"}
+                    schoolName="Fairway School of Technology"
+                    schoolDescription="Professional Web Developer"
+                  />
             <hr style={{ borderTop: '3px solid #d16c82'}} />
 
             <h2>Experience</h2>
@@ -57,8 +71,8 @@ export default class Resume extends Component {
             <Experience
               startYear={2017}
               endYear={2018}
-              jobName="First Job"
-              jobDescription="orem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+              jobName="Site Engineer"
+              jobDescription="1 Year Experienced Site Engineer position at “68 Residence” and “Myat Mingalar” Condominium Project with (PH Global Co.,Ltd)."
             />
             <hr style={{ borderTop: '3px solid #d16c82'}} />
 
@@ -75,6 +89,10 @@ export default class Resume extends Component {
               skill="PHP/Laravel"
               progress={70}
             />
+              <Skills
+                skill="MySQL"
+                progress={50}
+              />
             <Skills
               skill="React"
               progress={30}
