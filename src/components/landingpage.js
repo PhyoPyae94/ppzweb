@@ -15,10 +15,9 @@ export default class Landing extends Component {
               />
             <div className="banner-text">
               <h1>Web Developer</h1>
-
               <hr />
-
               <p>HTML/CSS | Bootstrap | Javascript | React | PHP | Laravel | MySQL</p>
+
               </div>  
           </Cell>
         </Grid>

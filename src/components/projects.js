@@ -11,70 +11,105 @@ export default class Projects extends Component {
       
       if(this.state.activeTab === 0){
         return(
-          <div className="projects-grid">
+          <div className="projects-grid-zero">
           {/* project 1 */}
-          <Card shadow={5} style={{miniWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png) center / cover'}}>React Prject #1</CardTitle>
-            <CardText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Aenan convallis.
-            </CardText>
-            <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>Live Demo</Button>
-                <Button colored></Button>
-            </CardActions>
-            <CardMenu style={{ color: '#fff' }}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
+            <div className="project-one" style={{miniWidth: '300', margin: 'auto'}}>
+              <Card shadow={5}>
+                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB5wIiElencE4D-Cv1f3YqouHUFVmmrNzikLVk9ADs244_WBzomw) center / cover'}}>Todo List app</CardTitle>
+                <CardText>
+                    Build a Todo list application with Laravel.
+                </CardText>
+                <CardActions border>
+                    <Button colored>
+                      <a href="https://github.com/PhyoPyae94/Todos" style={{textDecoration: 'none', color: 'blue'}}>Github</a>
+                    </Button>
+                    <Button colored>
+                      <a href="http://ppztodos.000webhostapp.com/" style={{textDecoration: 'none', color: 'blue'}}>Live Demo</a>
+                    </Button>
+                </CardActions>
+                <CardMenu style={{ color: '#fff' }}>
+                  <IconButton name="share" />
+                </CardMenu>
+              </Card>
+            </div>
 
           {/* project 2 */}
-          <Card shadow={5} style={{miniWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png) center / cover'}}>React Prject #2</CardTitle>
-            <CardText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Aenan convallis.
-            </CardText>
-            <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>Live Demo</Button>
-                <Button colored></Button>
-            </CardActions>
-            <CardMenu style={{ color: '#fff' }}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
+            <div className="project-one" style={{miniWidth: '450', margin: 'auto'}}>
+              <Card shadow={5}>
+                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB5wIiElencE4D-Cv1f3YqouHUFVmmrNzikLVk9ADs244_WBzomw) center / cover'}}>Laravel Project #2</CardTitle>
+                <CardText>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenan convallis.
+                </CardText>
+                <CardActions border>
+                    <Button colored>Github</Button>
+                    <Button colored>Live Demo</Button>
+                    <Button colored></Button>
+                </CardActions>
+                <CardMenu style={{ color: '#fff' }}>
+                  <IconButton name="share" />
+                </CardMenu>
+              </Card>
+            </div>
 
-          {/* project 3 */}
-          <Card shadow={5} style={{miniWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png) center / cover'}}>React Prject #3</CardTitle>
-            <CardText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Aenan convallis.
-            </CardText>
-            <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>Live Demo</Button>
-                <Button colored></Button>
-            </CardActions>
-            <CardMenu style={{ color: '#fff' }}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
           </div>
         )
+
+        // React
       } else if(this.state.activeTab === 1){
         return(
-          <div><h1>This is Laravel</h1></div>
+          <div>
+            {/* project 1 */}
+              <div className="project-one" style={{miniWidth: '450', margin: 'auto'}}>
+                <Card shadow={5}>
+                  <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png) center / cover'}}>Portfolio Website</CardTitle>
+                  <CardText>
+                      Building Portfolio Website using ReactJs.
+                  </CardText>
+                  <CardActions border>
+                      <Button colored>
+                        <a href="https://github.com/PhyoPyae94/ppzweb" style={{textDecoration: 'none', color: 'blue'}}>Github</a>
+                      </Button>
+                      <Button colored>
+                        <a href="https://phyopyaezaw.netlify.com" style={{textDecoration: 'none', color: 'blue'}}>Live Demo</a>
+                      </Button>
+                  </CardActions>
+                  <CardMenu style={{ color: '#fff' }}>
+                    <IconButton name="share" />
+                  </CardMenu>
+                </Card>
+              </div>
+          </div>
         )
       } else if(this.state.activeTab === 2){
         return(
-          <div><h1>This is VueJs</h1></div>
+          <div><h1>PHP projects will comming soon.</h1></div>
         )
+        // others project
       } else if(this.state.activeTab === 3){
         return(
-          <div><h1>This is MongoDB</h1></div>
+          <div>
+            {/* project 1 */}
+              <div className="project-one" style={{miniWidth: '450', margin: 'auto'}}>
+                <Card shadow={5}>
+                  <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKHVQRQGKwkNNAmuacy-mLBGHbeN_TlTPZbprci4bp99L3mvod'}}>Simple Responsive Website</CardTitle>
+                  <CardText>
+                      Building Simple responsive website with html, css, jquery and bootstrap.
+                  </CardText>
+                  <CardActions border>
+                      <Button colored>
+                        <a href="https://github.com/PhyoPyae94/sbp" style={{textDecoration: 'none', color: 'blue'}}>Github</a>
+                      </Button>
+                      <Button colored>
+                        <a href="https://loso-responsive.netlify.com" style={{textDecoration: 'none', color: 'blue'}}>Live Demo</a>
+                      </Button>
+                  </CardActions>
+                  <CardMenu style={{ color: '#fff' }}>
+                    <IconButton name="share" />
+                  </CardMenu>
+                </Card>
+              </div>
+          </div>
         )
       }
     }
@@ -83,10 +118,10 @@ export default class Projects extends Component {
     return (
       <div className="category-tabs">
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-          <Tab>React</Tab>
           <Tab>Laravel</Tab>
-          <Tab>VueJs</Tab>
-          <Tab>MongoDB</Tab>
+          <Tab>React</Tab>
+          <Tab>PHP</Tab>
+          <Tab>Others</Tab>
         </Tabs>
 
         <Grid>
