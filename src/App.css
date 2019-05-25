@@ -22,6 +22,10 @@
   border-radius: 50%;
 }
 
+.landing {
+  display: flex;
+  flex-wrap: wrap;
+}
 .banner-text {
   background: #000;
   opacity: .8;
@@ -133,3 +137,5 @@
 .resume-left-col h5 {
   font-weight: bold;
 }
+
+/* landing page */
