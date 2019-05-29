@@ -21,10 +21,10 @@ export default class Projects extends Component {
                 </CardText>
                 <CardActions border>
                     <Button colored>
-                      <a href="https://github.com/PhyoPyae94/Todos" style={{textDecoration: 'none', color: 'blue'}}>Github</a>
+                      <a href="https://github.com/PhyoPyae94/Todos" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none', color: 'blue'}}>Github</a>
                     </Button>
                     <Button colored>
-                      <a href="http://ppztodos.000webhostapp.com/" style={{textDecoration: 'none', color: 'blue'}}>Live Demo</a>
+                      <a href="http://ppztodos.000webhostapp.com/" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none', color: 'blue'}}>Live Demo</a>
                     </Button>
                 </CardActions>
                 <CardMenu style={{ color: '#fff' }}>
@@ -68,10 +68,10 @@ export default class Projects extends Component {
                   </CardText>
                   <CardActions border>
                       <Button colored>
-                        <a href="https://github.com/PhyoPyae94/ppzweb" style={{textDecoration: 'none', color: 'blue'}}>Github</a>
+                        <a href="https://github.com/PhyoPyae94/ppzweb" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none', color: 'blue'}}>Github</a>
                       </Button>
                       <Button colored>
-                        <a href="https://phyopyaezaw.netlify.com" style={{textDecoration: 'none', color: 'blue'}}>Live Demo</a>
+                        <a href="https://phyopyaezaw.netlify.com" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none', color: 'blue'}}>Live Demo</a>
                       </Button>
                   </CardActions>
                   <CardMenu style={{ color: '#fff' }}>
@@ -98,10 +98,10 @@ export default class Projects extends Component {
                   </CardText>
                   <CardActions border>
                       <Button colored>
-                        <a href="https://github.com/PhyoPyae94/sbp" style={{textDecoration: 'none', color: 'blue'}}>Github</a>
+                        <a href="https://github.com/PhyoPyae94/sbp" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none', color: 'blue'}}>Github</a>
                       </Button>
                       <Button colored>
-                        <a href="https://loso-responsive.netlify.com" style={{textDecoration: 'none', color: 'blue'}}>Live Demo</a>
+                        <a href="https://loso-responsive.netlify.com" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none', color: 'blue'}}>Live Demo</a>
                       </Button>
                   </CardActions>
                   <CardMenu style={{ color: '#fff' }}>

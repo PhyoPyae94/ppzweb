@@ -2,26 +2,26 @@ import React from 'react';
 import './App.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './components/main.js';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function App() {
   return (
     <div className="demo-big-content">
       <Layout>
-          <Header className="header-color" title={<Link style={{textDecoration: "none", color: '#fff'}} to="/">PhyoPyaeZaw</Link>} scroll>
+          <Header className="header-color" title={<NavLink style={{textDecoration: "none", color: '#fff'}} to="/">PhyoPyaeZaw</NavLink>} scroll>
               <Navigation>
-                  <Link to="/resume">Resume</Link >
-                  <Link to="/aboutme">About Me</Link >
-                  <Link to="/projects">Projects</Link >
-                  <Link to="/contact">Contact</Link >
+                  <NavLink to="/projects">Projects</NavLink >
+                  <NavLink to="/aboutme">About Me</NavLink >
+                  <NavLink to="/resume">Resume</NavLink >
+                  <NavLink to="/contact">Contact</NavLink >
               </Navigation>
           </Header>
-          <Drawer title={<Link style={{textDecoration: "none", color: '#000'}} to="/">PhyoPyaeZaw</Link>}>
+          <Drawer title={<NavLink style={{textDecoration: "none", color: '#000'}} to="/">PhyoPyaeZaw</NavLink>}>
               <Navigation>
-                  <Link to="/resume">Resume</Link >
-                  <Link to="/aboutme">About Me</Link >
-                  <Link to="/projects">Projects</Link >
-                  <Link to="/contact">Contact</Link >
+                  <NavLink to="/resume">Resume</NavLink >
+                  <NavLink to="/aboutme">About Me</NavLink >
+                  <NavLink to="/projects">Projects</NavLink >
+                  <NavLink to="/contact">Contact</NavLink >
               </Navigation>
           </Drawer>
           <Content>
