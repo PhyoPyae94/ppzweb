@@ -4,7 +4,7 @@ import avatar from './avatar.png';
 
 import { faPhoneSquare } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelopeOpenText } from "@fortawesome/free-solid-svg-icons";
-import { faFacebookSquare } from "@fortawesome/free-brands-svg-icons";
+import { faFacebookSquare, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
@@ -58,8 +58,8 @@ export default class Contact extends Component {
               <List>
                 <ListItem>
                   <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
-                  <FontAwesomeIcon className="fontAwesome" icon={faPhoneSquare} />
-                    (123) 456-7890
+                  <FontAwesomeIcon className="fontAwesome" icon={faTwitter} />
+                    My Twitter ID
                     </ListItemContent>
                 </ListItem>
               </List>

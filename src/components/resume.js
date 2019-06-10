@@ -22,7 +22,7 @@ export default class Resume extends Component {
             <h2 style={{paddingTop: '0.5em'}}>Phyo Pyae Zaw</h2>
             <h4 style={{color: 'grey'}}>Web Developer</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, ab.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, ab.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, ab.</p>
+            <p>Phyo Pyae Zaw is learning, thinking and coding about web development, how to create, how to maintain and how to design with the following skills.</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <h5>Address</h5>
             <p>Pha Sa Pa La Quatar, MingalrTaungNyunt, Yangon.</p>
@@ -60,7 +60,7 @@ export default class Resume extends Component {
 
                 <Education
                     startYear={2019}
-                    endYear={"( Oct -> Jan )"}
+                    endYear={"( 2018Oct -> Jan )"}
                     schoolName="Fairway School of Technology"
                     schoolDescription="Professional Web Developer"
                   />

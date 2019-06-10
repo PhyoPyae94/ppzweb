@@ -36,14 +36,17 @@ export default class Projects extends Component {
           {/* project 2 */}
             <div className="project-one" style={{miniWidth: '450', margin: 'auto'}}>
               <Card shadow={5}>
-                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB5wIiElencE4D-Cv1f3YqouHUFVmmrNzikLVk9ADs244_WBzomw) center / cover'}}>Laravel Project #2</CardTitle>
+                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB5wIiElencE4D-Cv1f3YqouHUFVmmrNzikLVk9ADs244_WBzomw) center / cover'}}>Z-Reader</CardTitle>
                 <CardText>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aenan convallis.
+                    Build a CMS blog website with Laravel.
                 </CardText>
                 <CardActions border>
-                    <Button colored>Github</Button>
-                    <Button colored>Live Demo</Button>
+                    <Button colored>
+                      <a href="https://github.com/PhyoPyae94/cms" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none', color: 'blue'}}>Github</a>
+                    </Button>
+                    <Button colored>
+                      <a href="https://zreader.000webhostapp.com/" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none', color: 'blue'}}>Live Demo</a>
+                    </Button>
                     <Button colored></Button>
                 </CardActions>
                 <CardMenu style={{ color: '#fff' }}>
